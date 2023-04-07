@@ -1,6 +1,6 @@
-# Steamship Package Template 
+# TrashTalk Bot from Regression Games
 
-This repository contains a starter template showing you how to develop and use a package.
+This repository contains the 
 
 ## Quick Start
 

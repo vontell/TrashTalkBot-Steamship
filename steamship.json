@@ -1,0 +1,33 @@
+{
+	"type": "package",
+	"handle": "YOURNAME-rg-trash-talker",
+	"version": "0.0.1",
+	"description": "An app to generate trash talk for a Regression Games bot.",
+	"author": null,
+	"entrypoint": "Unused",
+	"public": true,
+	"plugin": null,
+	"build_config": {
+		"ignore": []
+	},
+	"configTemplate": {},
+	"steamshipRegistry": {
+		"tagline": "An app to generate trash talk for a Regression Games bot.",
+		"tagline2": "Generates trash talk specifically for a capture the flag bot in Minecraft.",
+		"usefulFor": "Useful for https://regression.gg",
+		"videoUrl": null,
+		"githubUrl": null,
+		"demoUrl": null,
+		"blogUrl": null,
+		"jupyterUrl": null,
+		"authorGithub": null,
+		"authorName": "Regression Games",
+		"authorEmail": null,
+		"authorTwitter": "RegressionGG",
+		"authorUrl": "https://regression.gg",
+		"tags": [
+			"Regression Games",
+			"NPC"
+		]
+	}
+}
