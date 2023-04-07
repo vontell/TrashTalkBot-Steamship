@@ -1,6 +1,7 @@
-# TrashTalk Bot from Regression Games
+# TrashTalk Bot using GPT-4 from Regression Games
 
-This repository contains the 
+This repository contains the trash talking bot for use in the Regression Games Capture the Flag game mode.
+You can find the full tutorial here: https://medium.com/@RGAaron/writing-a-trash-talking-bot-on-regression-games-using-steamship-7633e231ccf1
 
 ## Quick Start
 
@@ -46,28 +47,5 @@ Finally, invoke a method!
 ```bash
 ship package:instance:invoke --instance="INSTANCE_HANDLE" --method="greet"    
 ```
-
-### Invoke your Package from Python
-
-It's more likely you'll want to call your package from software you're writing. Let's try from Python.
-
-Create a new instance and invoke it with:
-
-```python
-from steamship import Steamship
-
-# TODO: Replace with your package and instance handle below
-instance = Steamship.use("PACKAGE_HANDLE", "INSTANCE_HANDLE", config={
-    "default_name": "Beautiful"
-})
-
-print(instance.invoke("greet"))
-```
-
-## Extending on your own
-
-Steamship packages run on a cloud stack designed for Language AI.
-
-You can import files, parse and tag them, query over them, and return custom results. 
 
 Full documentation for developers is available at [https://docs.steamship.com/packages/developing](https://docs.steamship.com/packages/developing).
